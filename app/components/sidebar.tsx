@@ -2,10 +2,10 @@ import { LayoutDashboard, Building2, LogOut, BarChart3, CircleDollarSign, Form, 
 
 export default function SideBar(){
     return(
-        <div className={"flex flex-col gap-5"}>
+        <div className={"flex flex-col gap-5 px-2"}>
             <div className={"flex flex-cold items-center gap-2"}>
-                <div className={"flex items-center justify-center h-10 w-10 bg-green-800 rounded-xl"}><Landmark className={"text-white"}></Landmark></div>
-                <span className={"text-3xl font-bold "}>RealEstate Pro</span>
+                <div className={"flex items-center justify-center h-10 w-10 bg-[#0e9664] rounded-xl"}><Landmark className={"text-white"}></Landmark></div>
+                <span className={"text-3xl font-bold whitespace-nowrap "}>RealEstate Pro</span>
             </div>
             <div className={"flex flex-col shadow-[0_8px_24px_rgba(0,0,0,0.06)] border backdrop-blur-sm border-black/5 bg-white h-[800px] w-[250px] p-4 gap-6 shadow-xl rounded-2xl"}>
                 <div className={"flex flex-col gap-6"}>
@@ -67,7 +67,7 @@ export default function SideBar(){
                         </ul>
                     </div>
                 <div>
-                    <div className={"flex flex-col bg-[#b7edc7] h-[250px] w-full p-3 rounded-xl gap-2"}>
+                    <div className={"flex flex-col bg-[#e2f3ee] h-[250px] w-full p-3 rounded-xl gap-2"}>
                         <div>
                             <span className={"text-xl"}>Upgrade to Pro</span>
                         </div>
@@ -75,7 +75,7 @@ export default function SideBar(){
                             <span className={"text-s"}>Unlock advanced anayltics and manage unlimited properties</span>
                         </div>
                         <div className={"flex flex-col gap-4"}>
-                            <a className={"flex justify-center bg-[#3eb562] w-full h-[40px] items-center rounded-xl text-white"}>Upgrade Now</a>
+                            <a className={"flex justify-center bg-[#0e9666] w-full h-[40px] items-center rounded-xl text-white"}>Upgrade Now</a>
                             <a className={"flex justify-center bg-[white] w-full h-[40px] items-center rounded-xl text-black"}>Learn more</a>
                         </div>
                     </div>
