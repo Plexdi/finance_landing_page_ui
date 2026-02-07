@@ -1,0 +1,7339 @@
+{
+  "meta": {
+    "currency": "USD",
+    "generatedAt": "2026-02-07T00:39:59.127201Z",
+    "notes": "Raw transactions are the source of truth. KPIs/charts should be derived from these arrays."
+  },
+  "properties": [
+    {
+      "id": "prop_001",
+      "name": "Riverside Apartments",
+      "city": "Manchester"
+    },
+    {
+      "id": "prop_002",
+      "name": "Oakwood Villas",
+      "city": "Birmingham"
+    },
+    {
+      "id": "prop_003",
+      "name": "Canary Wharf Lofts",
+      "city": "London"
+    },
+    {
+      "id": "prop_004",
+      "name": "Seaview Residences",
+      "city": "Brighton"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli_001",
+      "name": "Northline Holdings"
+    },
+    {
+      "id": "cli_002",
+      "name": "Be Confidency Ltd"
+    },
+    {
+      "id": "cli_003",
+      "name": "Greenleaf Partners"
+    },
+    {
+      "id": "cli_004",
+      "name": "Cedarstone Group"
+    }
+  ],
+  "targets": {
+    "dailyLimit": 30000,
+    "monthlyMarketingBudget": 75000,
+    "monthlyOpsBudget": 120000,
+    "monthlySavingsGoal": 50000
+  },
+  "transactions": [
+    {
+      "id": "tx_00001",
+      "date": "2025-01-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 3400,
+      "note": ""
+    },
+    {
+      "id": "tx_00002",
+      "date": "2025-01-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 6700,
+      "note": ""
+    },
+    {
+      "id": "tx_00003",
+      "date": "2025-01-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00004",
+      "date": "2025-01-03",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 9400,
+      "note": ""
+    },
+    {
+      "id": "tx_00005",
+      "date": "2025-01-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 12500,
+      "note": ""
+    },
+    {
+      "id": "tx_00006",
+      "date": "2025-01-06",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 57250,
+      "note": ""
+    },
+    {
+      "id": "tx_00007",
+      "date": "2025-01-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 10100,
+      "note": ""
+    },
+    {
+      "id": "tx_00008",
+      "date": "2025-01-09",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8300,
+      "note": ""
+    },
+    {
+      "id": "tx_00009",
+      "date": "2025-01-10",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 7300,
+      "note": ""
+    },
+    {
+      "id": "tx_00010",
+      "date": "2025-01-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00011",
+      "date": "2025-01-11",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 11900,
+      "note": ""
+    },
+    {
+      "id": "tx_00012",
+      "date": "2025-01-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7650,
+      "note": ""
+    },
+    {
+      "id": "tx_00013",
+      "date": "2025-01-12",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 4300,
+      "note": ""
+    },
+    {
+      "id": "tx_00014",
+      "date": "2025-01-13",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 16000,
+      "note": ""
+    },
+    {
+      "id": "tx_00015",
+      "date": "2025-01-13",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 11200,
+      "note": ""
+    },
+    {
+      "id": "tx_00016",
+      "date": "2025-01-14",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00017",
+      "date": "2025-01-15",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 6650,
+      "note": ""
+    },
+    {
+      "id": "tx_00018",
+      "date": "2025-01-15",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 10150,
+      "note": ""
+    },
+    {
+      "id": "tx_00019",
+      "date": "2025-01-16",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 8600,
+      "note": ""
+    },
+    {
+      "id": "tx_00020",
+      "date": "2025-01-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 2500,
+      "note": ""
+    },
+    {
+      "id": "tx_00021",
+      "date": "2025-01-17",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 16300,
+      "note": ""
+    },
+    {
+      "id": "tx_00022",
+      "date": "2025-01-19",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 12300,
+      "note": ""
+    },
+    {
+      "id": "tx_00023",
+      "date": "2025-01-20",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 2600,
+      "note": ""
+    },
+    {
+      "id": "tx_00024",
+      "date": "2025-01-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00025",
+      "date": "2025-01-21",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7550,
+      "note": ""
+    },
+    {
+      "id": "tx_00026",
+      "date": "2025-01-22",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 6150,
+      "note": ""
+    },
+    {
+      "id": "tx_00027",
+      "date": "2025-01-22",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 3500,
+      "note": ""
+    },
+    {
+      "id": "tx_00028",
+      "date": "2025-01-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 1150,
+      "note": ""
+    },
+    {
+      "id": "tx_00029",
+      "date": "2025-01-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 350,
+      "note": ""
+    },
+    {
+      "id": "tx_00030",
+      "date": "2025-01-24",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 2300,
+      "note": ""
+    },
+    {
+      "id": "tx_00031",
+      "date": "2025-01-27",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8650,
+      "note": ""
+    },
+    {
+      "id": "tx_00032",
+      "date": "2025-01-28",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 2300,
+      "note": ""
+    },
+    {
+      "id": "tx_00033",
+      "date": "2025-01-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00034",
+      "date": "2025-01-29",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00035",
+      "date": "2025-01-29",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 7650,
+      "note": ""
+    },
+    {
+      "id": "tx_00036",
+      "date": "2025-01-30",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 17900,
+      "note": ""
+    },
+    {
+      "id": "tx_00037",
+      "date": "2025-02-02",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7050,
+      "note": ""
+    },
+    {
+      "id": "tx_00038",
+      "date": "2025-02-03",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 8000,
+      "note": ""
+    },
+    {
+      "id": "tx_00039",
+      "date": "2025-02-04",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00040",
+      "date": "2025-02-05",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00041",
+      "date": "2025-02-05",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 7500,
+      "note": ""
+    },
+    {
+      "id": "tx_00042",
+      "date": "2025-02-06",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 4100,
+      "note": ""
+    },
+    {
+      "id": "tx_00043",
+      "date": "2025-02-07",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1150,
+      "note": ""
+    },
+    {
+      "id": "tx_00044",
+      "date": "2025-02-10",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1800,
+      "note": ""
+    },
+    {
+      "id": "tx_00045",
+      "date": "2025-02-10",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 7350,
+      "note": ""
+    },
+    {
+      "id": "tx_00046",
+      "date": "2025-02-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5450,
+      "note": ""
+    },
+    {
+      "id": "tx_00047",
+      "date": "2025-02-12",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 5450,
+      "note": ""
+    },
+    {
+      "id": "tx_00048",
+      "date": "2025-02-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 12800,
+      "note": ""
+    },
+    {
+      "id": "tx_00049",
+      "date": "2025-02-14",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 5700,
+      "note": ""
+    },
+    {
+      "id": "tx_00050",
+      "date": "2025-02-16",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 14500,
+      "note": ""
+    },
+    {
+      "id": "tx_00051",
+      "date": "2025-02-17",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 650,
+      "note": ""
+    },
+    {
+      "id": "tx_00052",
+      "date": "2025-02-18",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 5100,
+      "note": ""
+    },
+    {
+      "id": "tx_00053",
+      "date": "2025-02-19",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8950,
+      "note": ""
+    },
+    {
+      "id": "tx_00054",
+      "date": "2025-02-20",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 8650,
+      "note": ""
+    },
+    {
+      "id": "tx_00055",
+      "date": "2025-02-21",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 2650,
+      "note": ""
+    },
+    {
+      "id": "tx_00056",
+      "date": "2025-02-23",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00057",
+      "date": "2025-02-24",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10350,
+      "note": ""
+    },
+    {
+      "id": "tx_00058",
+      "date": "2025-02-25",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 9800,
+      "note": ""
+    },
+    {
+      "id": "tx_00059",
+      "date": "2025-02-26",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 12900,
+      "note": ""
+    },
+    {
+      "id": "tx_00060",
+      "date": "2025-02-26",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 5700,
+      "note": ""
+    },
+    {
+      "id": "tx_00061",
+      "date": "2025-02-27",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 11200,
+      "note": ""
+    },
+    {
+      "id": "tx_00062",
+      "date": "2025-02-27",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 14000,
+      "note": ""
+    },
+    {
+      "id": "tx_00063",
+      "date": "2025-02-28",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7800,
+      "note": ""
+    },
+    {
+      "id": "tx_00064",
+      "date": "2025-03-03",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 3350,
+      "note": ""
+    },
+    {
+      "id": "tx_00065",
+      "date": "2025-03-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 7700,
+      "note": ""
+    },
+    {
+      "id": "tx_00066",
+      "date": "2025-03-05",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00067",
+      "date": "2025-03-06",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00068",
+      "date": "2025-03-07",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 10850,
+      "note": ""
+    },
+    {
+      "id": "tx_00069",
+      "date": "2025-03-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00070",
+      "date": "2025-03-10",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00071",
+      "date": "2025-03-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 12400,
+      "note": ""
+    },
+    {
+      "id": "tx_00072",
+      "date": "2025-03-11",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 3400,
+      "note": ""
+    },
+    {
+      "id": "tx_00073",
+      "date": "2025-03-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 1050,
+      "note": ""
+    },
+    {
+      "id": "tx_00074",
+      "date": "2025-03-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 450,
+      "note": ""
+    },
+    {
+      "id": "tx_00075",
+      "date": "2025-03-13",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 9150,
+      "note": ""
+    },
+    {
+      "id": "tx_00076",
+      "date": "2025-03-14",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 10650,
+      "note": ""
+    },
+    {
+      "id": "tx_00077",
+      "date": "2025-03-15",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10400,
+      "note": ""
+    },
+    {
+      "id": "tx_00078",
+      "date": "2025-03-15",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 3300,
+      "note": ""
+    },
+    {
+      "id": "tx_00079",
+      "date": "2025-03-17",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 1050,
+      "note": ""
+    },
+    {
+      "id": "tx_00080",
+      "date": "2025-03-17",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 1550,
+      "note": ""
+    },
+    {
+      "id": "tx_00081",
+      "date": "2025-03-18",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 3650,
+      "note": ""
+    },
+    {
+      "id": "tx_00082",
+      "date": "2025-03-19",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00083",
+      "date": "2025-03-20",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00084",
+      "date": "2025-03-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 16000,
+      "note": ""
+    },
+    {
+      "id": "tx_00085",
+      "date": "2025-03-23",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 6900,
+      "note": ""
+    },
+    {
+      "id": "tx_00086",
+      "date": "2025-03-23",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00087",
+      "date": "2025-03-24",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5600,
+      "note": ""
+    },
+    {
+      "id": "tx_00088",
+      "date": "2025-03-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 5700,
+      "note": ""
+    },
+    {
+      "id": "tx_00089",
+      "date": "2025-03-26",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 6900,
+      "note": ""
+    },
+    {
+      "id": "tx_00090",
+      "date": "2025-03-27",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 4000,
+      "note": ""
+    },
+    {
+      "id": "tx_00091",
+      "date": "2025-03-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 33000,
+      "note": ""
+    },
+    {
+      "id": "tx_00092",
+      "date": "2025-03-28",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 850,
+      "note": ""
+    },
+    {
+      "id": "tx_00093",
+      "date": "2025-03-29",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 24500,
+      "note": ""
+    },
+    {
+      "id": "tx_00094",
+      "date": "2025-03-29",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 9950,
+      "note": ""
+    },
+    {
+      "id": "tx_00095",
+      "date": "2025-03-31",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 11700,
+      "note": ""
+    },
+    {
+      "id": "tx_00096",
+      "date": "2025-04-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 2400,
+      "note": ""
+    },
+    {
+      "id": "tx_00097",
+      "date": "2025-04-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 16000,
+      "note": ""
+    },
+    {
+      "id": "tx_00098",
+      "date": "2025-04-03",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 3150,
+      "note": ""
+    },
+    {
+      "id": "tx_00099",
+      "date": "2025-04-04",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 10750,
+      "note": ""
+    },
+    {
+      "id": "tx_00100",
+      "date": "2025-04-07",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 4050,
+      "note": ""
+    },
+    {
+      "id": "tx_00101",
+      "date": "2025-04-08",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00102",
+      "date": "2025-04-09",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 450,
+      "note": ""
+    },
+    {
+      "id": "tx_00103",
+      "date": "2025-04-10",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 3750,
+      "note": ""
+    },
+    {
+      "id": "tx_00104",
+      "date": "2025-04-10",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5400,
+      "note": ""
+    },
+    {
+      "id": "tx_00105",
+      "date": "2025-04-11",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 31000,
+      "note": ""
+    },
+    {
+      "id": "tx_00106",
+      "date": "2025-04-12",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00107",
+      "date": "2025-04-13",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 5850,
+      "note": ""
+    },
+    {
+      "id": "tx_00108",
+      "date": "2025-04-14",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1750,
+      "note": ""
+    },
+    {
+      "id": "tx_00109",
+      "date": "2025-04-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00110",
+      "date": "2025-04-17",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 9200,
+      "note": ""
+    },
+    {
+      "id": "tx_00111",
+      "date": "2025-04-17",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 3300,
+      "note": ""
+    },
+    {
+      "id": "tx_00112",
+      "date": "2025-04-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 1050,
+      "note": ""
+    },
+    {
+      "id": "tx_00113",
+      "date": "2025-04-19",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8400,
+      "note": ""
+    },
+    {
+      "id": "tx_00114",
+      "date": "2025-04-21",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 4300,
+      "note": ""
+    },
+    {
+      "id": "tx_00115",
+      "date": "2025-04-22",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 9700,
+      "note": ""
+    },
+    {
+      "id": "tx_00116",
+      "date": "2025-04-22",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 17400,
+      "note": ""
+    },
+    {
+      "id": "tx_00117",
+      "date": "2025-04-23",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00118",
+      "date": "2025-04-24",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00119",
+      "date": "2025-04-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 18000,
+      "note": ""
+    },
+    {
+      "id": "tx_00120",
+      "date": "2025-04-28",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 8950,
+      "note": ""
+    },
+    {
+      "id": "tx_00121",
+      "date": "2025-04-29",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 3300,
+      "note": ""
+    },
+    {
+      "id": "tx_00122",
+      "date": "2025-04-30",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 4500,
+      "note": ""
+    },
+    {
+      "id": "tx_00123",
+      "date": "2025-05-01",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 3250,
+      "note": ""
+    },
+    {
+      "id": "tx_00124",
+      "date": "2025-05-01",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 3450,
+      "note": ""
+    },
+    {
+      "id": "tx_00125",
+      "date": "2025-05-04",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 17100,
+      "note": ""
+    },
+    {
+      "id": "tx_00126",
+      "date": "2025-05-05",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6800,
+      "note": ""
+    },
+    {
+      "id": "tx_00127",
+      "date": "2025-05-05",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 10800,
+      "note": ""
+    },
+    {
+      "id": "tx_00128",
+      "date": "2025-05-06",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 11850,
+      "note": ""
+    },
+    {
+      "id": "tx_00129",
+      "date": "2025-05-07",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 2600,
+      "note": ""
+    },
+    {
+      "id": "tx_00130",
+      "date": "2025-05-07",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 43000,
+      "note": ""
+    },
+    {
+      "id": "tx_00131",
+      "date": "2025-05-08",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5200,
+      "note": ""
+    },
+    {
+      "id": "tx_00132",
+      "date": "2025-05-08",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 10750,
+      "note": ""
+    },
+    {
+      "id": "tx_00133",
+      "date": "2025-05-09",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 4400,
+      "note": ""
+    },
+    {
+      "id": "tx_00134",
+      "date": "2025-05-12",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 12400,
+      "note": ""
+    },
+    {
+      "id": "tx_00135",
+      "date": "2025-05-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1400,
+      "note": ""
+    },
+    {
+      "id": "tx_00136",
+      "date": "2025-05-14",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 8500,
+      "note": ""
+    },
+    {
+      "id": "tx_00137",
+      "date": "2025-05-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 3200,
+      "note": ""
+    },
+    {
+      "id": "tx_00138",
+      "date": "2025-05-16",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 5550,
+      "note": ""
+    },
+    {
+      "id": "tx_00139",
+      "date": "2025-05-19",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 6300,
+      "note": ""
+    },
+    {
+      "id": "tx_00140",
+      "date": "2025-05-20",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 32500,
+      "note": ""
+    },
+    {
+      "id": "tx_00141",
+      "date": "2025-05-22",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00142",
+      "date": "2025-05-22",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 2800,
+      "note": ""
+    },
+    {
+      "id": "tx_00143",
+      "date": "2025-05-23",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 38500,
+      "note": ""
+    },
+    {
+      "id": "tx_00144",
+      "date": "2025-05-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 6800,
+      "note": ""
+    },
+    {
+      "id": "tx_00145",
+      "date": "2025-05-26",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1000,
+      "note": ""
+    },
+    {
+      "id": "tx_00146",
+      "date": "2025-05-26",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1550,
+      "note": ""
+    },
+    {
+      "id": "tx_00147",
+      "date": "2025-05-27",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 8400,
+      "note": ""
+    },
+    {
+      "id": "tx_00148",
+      "date": "2025-05-29",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 12100,
+      "note": ""
+    },
+    {
+      "id": "tx_00149",
+      "date": "2025-05-30",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 14800,
+      "note": ""
+    },
+    {
+      "id": "tx_00150",
+      "date": "2025-05-30",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1450,
+      "note": ""
+    },
+    {
+      "id": "tx_00151",
+      "date": "2025-06-02",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 8800,
+      "note": ""
+    },
+    {
+      "id": "tx_00152",
+      "date": "2025-06-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00153",
+      "date": "2025-06-05",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 1750,
+      "note": ""
+    },
+    {
+      "id": "tx_00154",
+      "date": "2025-06-06",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 850,
+      "note": ""
+    },
+    {
+      "id": "tx_00155",
+      "date": "2025-06-07",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 3500,
+      "note": ""
+    },
+    {
+      "id": "tx_00156",
+      "date": "2025-06-09",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 10650,
+      "note": ""
+    },
+    {
+      "id": "tx_00157",
+      "date": "2025-06-10",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 24000,
+      "note": ""
+    },
+    {
+      "id": "tx_00158",
+      "date": "2025-06-11",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 6300,
+      "note": ""
+    },
+    {
+      "id": "tx_00159",
+      "date": "2025-06-12",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 16000,
+      "note": ""
+    },
+    {
+      "id": "tx_00160",
+      "date": "2025-06-13",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 8650,
+      "note": ""
+    },
+    {
+      "id": "tx_00161",
+      "date": "2025-06-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 15900,
+      "note": ""
+    },
+    {
+      "id": "tx_00162",
+      "date": "2025-06-17",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00163",
+      "date": "2025-06-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 5050,
+      "note": ""
+    },
+    {
+      "id": "tx_00164",
+      "date": "2025-06-18",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 1800,
+      "note": ""
+    },
+    {
+      "id": "tx_00165",
+      "date": "2025-06-19",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 5500,
+      "note": ""
+    },
+    {
+      "id": "tx_00166",
+      "date": "2025-06-20",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 12500,
+      "note": ""
+    },
+    {
+      "id": "tx_00167",
+      "date": "2025-06-22",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8700,
+      "note": ""
+    },
+    {
+      "id": "tx_00168",
+      "date": "2025-06-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 2650,
+      "note": ""
+    },
+    {
+      "id": "tx_00169",
+      "date": "2025-06-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 10600,
+      "note": ""
+    },
+    {
+      "id": "tx_00170",
+      "date": "2025-06-24",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 2700,
+      "note": ""
+    },
+    {
+      "id": "tx_00171",
+      "date": "2025-06-24",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00172",
+      "date": "2025-06-25",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 3700,
+      "note": ""
+    },
+    {
+      "id": "tx_00173",
+      "date": "2025-06-25",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 5950,
+      "note": ""
+    },
+    {
+      "id": "tx_00174",
+      "date": "2025-06-26",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1350,
+      "note": ""
+    },
+    {
+      "id": "tx_00175",
+      "date": "2025-06-27",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00176",
+      "date": "2025-07-01",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00177",
+      "date": "2025-07-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 2200,
+      "note": ""
+    },
+    {
+      "id": "tx_00178",
+      "date": "2025-07-03",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 8450,
+      "note": ""
+    },
+    {
+      "id": "tx_00179",
+      "date": "2025-07-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 17600,
+      "note": ""
+    },
+    {
+      "id": "tx_00180",
+      "date": "2025-07-05",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8550,
+      "note": ""
+    },
+    {
+      "id": "tx_00181",
+      "date": "2025-07-08",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 8750,
+      "note": ""
+    },
+    {
+      "id": "tx_00182",
+      "date": "2025-07-09",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 9500,
+      "note": ""
+    },
+    {
+      "id": "tx_00183",
+      "date": "2025-07-09",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 2700,
+      "note": ""
+    },
+    {
+      "id": "tx_00184",
+      "date": "2025-07-10",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 2150,
+      "note": ""
+    },
+    {
+      "id": "tx_00185",
+      "date": "2025-07-11",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8000,
+      "note": ""
+    },
+    {
+      "id": "tx_00186",
+      "date": "2025-07-13",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 4900,
+      "note": ""
+    },
+    {
+      "id": "tx_00187",
+      "date": "2025-07-14",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 2250,
+      "note": ""
+    },
+    {
+      "id": "tx_00188",
+      "date": "2025-07-15",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 14000,
+      "note": ""
+    },
+    {
+      "id": "tx_00189",
+      "date": "2025-07-16",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5750,
+      "note": ""
+    },
+    {
+      "id": "tx_00190",
+      "date": "2025-07-17",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 5250,
+      "note": ""
+    },
+    {
+      "id": "tx_00191",
+      "date": "2025-07-19",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8500,
+      "note": ""
+    },
+    {
+      "id": "tx_00192",
+      "date": "2025-07-19",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 12800,
+      "note": ""
+    },
+    {
+      "id": "tx_00193",
+      "date": "2025-07-21",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 14800,
+      "note": ""
+    },
+    {
+      "id": "tx_00194",
+      "date": "2025-07-21",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1750,
+      "note": ""
+    },
+    {
+      "id": "tx_00195",
+      "date": "2025-07-22",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 11750,
+      "note": ""
+    },
+    {
+      "id": "tx_00196",
+      "date": "2025-07-23",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 200,
+      "note": ""
+    },
+    {
+      "id": "tx_00197",
+      "date": "2025-07-24",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 48500,
+      "note": ""
+    },
+    {
+      "id": "tx_00198",
+      "date": "2025-07-24",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5150,
+      "note": ""
+    },
+    {
+      "id": "tx_00199",
+      "date": "2025-07-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 17600,
+      "note": ""
+    },
+    {
+      "id": "tx_00200",
+      "date": "2025-07-26",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10150,
+      "note": ""
+    },
+    {
+      "id": "tx_00201",
+      "date": "2025-07-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 3950,
+      "note": ""
+    },
+    {
+      "id": "tx_00202",
+      "date": "2025-07-28",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 10900,
+      "note": ""
+    },
+    {
+      "id": "tx_00203",
+      "date": "2025-07-29",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 2000,
+      "note": ""
+    },
+    {
+      "id": "tx_00204",
+      "date": "2025-07-30",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 11650,
+      "note": ""
+    },
+    {
+      "id": "tx_00205",
+      "date": "2025-08-01",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 42000,
+      "note": ""
+    },
+    {
+      "id": "tx_00206",
+      "date": "2025-08-04",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8600,
+      "note": ""
+    },
+    {
+      "id": "tx_00207",
+      "date": "2025-08-05",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 9800,
+      "note": ""
+    },
+    {
+      "id": "tx_00208",
+      "date": "2025-08-06",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00209",
+      "date": "2025-08-07",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 1050,
+      "note": ""
+    },
+    {
+      "id": "tx_00210",
+      "date": "2025-08-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 12300,
+      "note": ""
+    },
+    {
+      "id": "tx_00211",
+      "date": "2025-08-11",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1650,
+      "note": ""
+    },
+    {
+      "id": "tx_00212",
+      "date": "2025-08-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3500,
+      "note": ""
+    },
+    {
+      "id": "tx_00213",
+      "date": "2025-08-14",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00214",
+      "date": "2025-08-15",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 11000,
+      "note": ""
+    },
+    {
+      "id": "tx_00215",
+      "date": "2025-08-17",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 17100,
+      "note": ""
+    },
+    {
+      "id": "tx_00216",
+      "date": "2025-08-18",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 1400,
+      "note": ""
+    },
+    {
+      "id": "tx_00217",
+      "date": "2025-08-18",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 8000,
+      "note": ""
+    },
+    {
+      "id": "tx_00218",
+      "date": "2025-08-19",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5400,
+      "note": ""
+    },
+    {
+      "id": "tx_00219",
+      "date": "2025-08-21",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00220",
+      "date": "2025-08-22",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 4700,
+      "note": ""
+    },
+    {
+      "id": "tx_00221",
+      "date": "2025-08-24",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1200,
+      "note": ""
+    },
+    {
+      "id": "tx_00222",
+      "date": "2025-08-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 14400,
+      "note": ""
+    },
+    {
+      "id": "tx_00223",
+      "date": "2025-08-26",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00224",
+      "date": "2025-08-27",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 2850,
+      "note": ""
+    },
+    {
+      "id": "tx_00225",
+      "date": "2025-08-28",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 13100,
+      "note": ""
+    },
+    {
+      "id": "tx_00226",
+      "date": "2025-08-29",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 12600,
+      "note": ""
+    },
+    {
+      "id": "tx_00227",
+      "date": "2025-08-31",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 10200,
+      "note": ""
+    },
+    {
+      "id": "tx_00228",
+      "date": "2025-09-01",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00229",
+      "date": "2025-09-01",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 11250,
+      "note": ""
+    },
+    {
+      "id": "tx_00230",
+      "date": "2025-09-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 11450,
+      "note": ""
+    },
+    {
+      "id": "tx_00231",
+      "date": "2025-09-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 3250,
+      "note": ""
+    },
+    {
+      "id": "tx_00232",
+      "date": "2025-09-03",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00233",
+      "date": "2025-09-04",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 9950,
+      "note": ""
+    },
+    {
+      "id": "tx_00234",
+      "date": "2025-09-05",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 3850,
+      "note": ""
+    },
+    {
+      "id": "tx_00235",
+      "date": "2025-09-05",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 3750,
+      "note": ""
+    },
+    {
+      "id": "tx_00236",
+      "date": "2025-09-07",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 4400,
+      "note": ""
+    },
+    {
+      "id": "tx_00237",
+      "date": "2025-09-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 12400,
+      "note": ""
+    },
+    {
+      "id": "tx_00238",
+      "date": "2025-09-08",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5200,
+      "note": ""
+    },
+    {
+      "id": "tx_00239",
+      "date": "2025-09-09",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6250,
+      "note": ""
+    },
+    {
+      "id": "tx_00240",
+      "date": "2025-09-10",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 9450,
+      "note": ""
+    },
+    {
+      "id": "tx_00241",
+      "date": "2025-09-11",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3100,
+      "note": ""
+    },
+    {
+      "id": "tx_00242",
+      "date": "2025-09-12",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00243",
+      "date": "2025-09-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 6000,
+      "note": ""
+    },
+    {
+      "id": "tx_00244",
+      "date": "2025-09-16",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6300,
+      "note": ""
+    },
+    {
+      "id": "tx_00245",
+      "date": "2025-09-17",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 11300,
+      "note": ""
+    },
+    {
+      "id": "tx_00246",
+      "date": "2025-09-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 4000,
+      "note": ""
+    },
+    {
+      "id": "tx_00247",
+      "date": "2025-09-18",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6300,
+      "note": ""
+    },
+    {
+      "id": "tx_00248",
+      "date": "2025-09-19",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 9600,
+      "note": ""
+    },
+    {
+      "id": "tx_00249",
+      "date": "2025-09-20",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 17500,
+      "note": ""
+    },
+    {
+      "id": "tx_00250",
+      "date": "2025-09-21",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1950,
+      "note": ""
+    },
+    {
+      "id": "tx_00251",
+      "date": "2025-09-22",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 850,
+      "note": ""
+    },
+    {
+      "id": "tx_00252",
+      "date": "2025-09-23",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 4800,
+      "note": ""
+    },
+    {
+      "id": "tx_00253",
+      "date": "2025-09-24",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 2300,
+      "note": ""
+    },
+    {
+      "id": "tx_00254",
+      "date": "2025-09-25",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 2400,
+      "note": ""
+    },
+    {
+      "id": "tx_00255",
+      "date": "2025-09-27",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 3900,
+      "note": ""
+    },
+    {
+      "id": "tx_00256",
+      "date": "2025-09-29",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 14700,
+      "note": ""
+    },
+    {
+      "id": "tx_00257",
+      "date": "2025-09-30",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 17300,
+      "note": ""
+    },
+    {
+      "id": "tx_00258",
+      "date": "2025-10-01",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 2400,
+      "note": ""
+    },
+    {
+      "id": "tx_00259",
+      "date": "2025-10-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 1950,
+      "note": ""
+    },
+    {
+      "id": "tx_00260",
+      "date": "2025-10-02",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 5100,
+      "note": ""
+    },
+    {
+      "id": "tx_00261",
+      "date": "2025-10-03",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1000,
+      "note": ""
+    },
+    {
+      "id": "tx_00262",
+      "date": "2025-10-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 13600,
+      "note": ""
+    },
+    {
+      "id": "tx_00263",
+      "date": "2025-10-04",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 4900,
+      "note": ""
+    },
+    {
+      "id": "tx_00264",
+      "date": "2025-10-06",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 12800,
+      "note": ""
+    },
+    {
+      "id": "tx_00265",
+      "date": "2025-10-07",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 6950,
+      "note": ""
+    },
+    {
+      "id": "tx_00266",
+      "date": "2025-10-08",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 2100,
+      "note": ""
+    },
+    {
+      "id": "tx_00267",
+      "date": "2025-10-09",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00268",
+      "date": "2025-10-10",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 8600,
+      "note": ""
+    },
+    {
+      "id": "tx_00269",
+      "date": "2025-10-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 2300,
+      "note": ""
+    },
+    {
+      "id": "tx_00270",
+      "date": "2025-10-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 4200,
+      "note": ""
+    },
+    {
+      "id": "tx_00271",
+      "date": "2025-10-15",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8900,
+      "note": ""
+    },
+    {
+      "id": "tx_00272",
+      "date": "2025-10-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00273",
+      "date": "2025-10-17",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 3100,
+      "note": ""
+    },
+    {
+      "id": "tx_00274",
+      "date": "2025-10-18",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 1600,
+      "note": ""
+    },
+    {
+      "id": "tx_00275",
+      "date": "2025-10-21",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 12200,
+      "note": ""
+    },
+    {
+      "id": "tx_00276",
+      "date": "2025-10-21",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 3150,
+      "note": ""
+    },
+    {
+      "id": "tx_00277",
+      "date": "2025-10-22",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 4250,
+      "note": ""
+    },
+    {
+      "id": "tx_00278",
+      "date": "2025-10-23",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 4000,
+      "note": ""
+    },
+    {
+      "id": "tx_00279",
+      "date": "2025-10-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 9600,
+      "note": ""
+    },
+    {
+      "id": "tx_00280",
+      "date": "2025-10-24",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 6900,
+      "note": ""
+    },
+    {
+      "id": "tx_00281",
+      "date": "2025-10-26",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 3050,
+      "note": ""
+    },
+    {
+      "id": "tx_00282",
+      "date": "2025-10-26",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 7350,
+      "note": ""
+    },
+    {
+      "id": "tx_00283",
+      "date": "2025-10-27",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 12300,
+      "note": ""
+    },
+    {
+      "id": "tx_00284",
+      "date": "2025-10-28",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1100,
+      "note": ""
+    },
+    {
+      "id": "tx_00285",
+      "date": "2025-10-29",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1100,
+      "note": ""
+    },
+    {
+      "id": "tx_00286",
+      "date": "2025-10-30",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 9200,
+      "note": ""
+    },
+    {
+      "id": "tx_00287",
+      "date": "2025-11-03",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 13900,
+      "note": ""
+    },
+    {
+      "id": "tx_00288",
+      "date": "2025-11-04",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 2800,
+      "note": ""
+    },
+    {
+      "id": "tx_00289",
+      "date": "2025-11-05",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 7400,
+      "note": ""
+    },
+    {
+      "id": "tx_00290",
+      "date": "2025-11-06",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 13500,
+      "note": ""
+    },
+    {
+      "id": "tx_00291",
+      "date": "2025-11-07",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 6050,
+      "note": ""
+    },
+    {
+      "id": "tx_00292",
+      "date": "2025-11-08",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 7100,
+      "note": ""
+    },
+    {
+      "id": "tx_00293",
+      "date": "2025-11-10",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 4300,
+      "note": ""
+    },
+    {
+      "id": "tx_00294",
+      "date": "2025-11-11",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 8100,
+      "note": ""
+    },
+    {
+      "id": "tx_00295",
+      "date": "2025-11-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 87500,
+      "note": ""
+    },
+    {
+      "id": "tx_00296",
+      "date": "2025-11-12",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00297",
+      "date": "2025-11-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10900,
+      "note": ""
+    },
+    {
+      "id": "tx_00298",
+      "date": "2025-11-14",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 2800,
+      "note": ""
+    },
+    {
+      "id": "tx_00299",
+      "date": "2025-11-16",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00300",
+      "date": "2025-11-17",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 11650,
+      "note": ""
+    },
+    {
+      "id": "tx_00301",
+      "date": "2025-11-18",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 750,
+      "note": ""
+    },
+    {
+      "id": "tx_00302",
+      "date": "2025-11-19",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 4400,
+      "note": ""
+    },
+    {
+      "id": "tx_00303",
+      "date": "2025-11-20",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8850,
+      "note": ""
+    },
+    {
+      "id": "tx_00304",
+      "date": "2025-11-21",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 6600,
+      "note": ""
+    },
+    {
+      "id": "tx_00305",
+      "date": "2025-11-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 2700,
+      "note": ""
+    },
+    {
+      "id": "tx_00306",
+      "date": "2025-11-22",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 4750,
+      "note": ""
+    },
+    {
+      "id": "tx_00307",
+      "date": "2025-11-23",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 8300,
+      "note": ""
+    },
+    {
+      "id": "tx_00308",
+      "date": "2025-11-24",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5150,
+      "note": ""
+    },
+    {
+      "id": "tx_00309",
+      "date": "2025-11-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 7700,
+      "note": ""
+    },
+    {
+      "id": "tx_00310",
+      "date": "2025-11-25",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 6750,
+      "note": ""
+    },
+    {
+      "id": "tx_00311",
+      "date": "2025-11-26",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 5100,
+      "note": ""
+    },
+    {
+      "id": "tx_00312",
+      "date": "2025-11-26",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 15100,
+      "note": ""
+    },
+    {
+      "id": "tx_00313",
+      "date": "2025-11-27",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 4500,
+      "note": ""
+    },
+    {
+      "id": "tx_00314",
+      "date": "2025-11-27",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 1150,
+      "note": ""
+    },
+    {
+      "id": "tx_00315",
+      "date": "2025-11-28",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 10900,
+      "note": ""
+    },
+    {
+      "id": "tx_00316",
+      "date": "2025-11-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00317",
+      "date": "2025-11-29",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 10900,
+      "note": ""
+    },
+    {
+      "id": "tx_00318",
+      "date": "2025-12-01",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 10100,
+      "note": ""
+    },
+    {
+      "id": "tx_00319",
+      "date": "2025-12-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 9250,
+      "note": ""
+    },
+    {
+      "id": "tx_00320",
+      "date": "2025-12-03",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 17000,
+      "note": ""
+    },
+    {
+      "id": "tx_00321",
+      "date": "2025-12-04",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 13000,
+      "note": ""
+    },
+    {
+      "id": "tx_00322",
+      "date": "2025-12-05",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 8350,
+      "note": ""
+    },
+    {
+      "id": "tx_00323",
+      "date": "2025-12-07",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 17300,
+      "note": ""
+    },
+    {
+      "id": "tx_00324",
+      "date": "2025-12-08",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 15000,
+      "note": ""
+    },
+    {
+      "id": "tx_00325",
+      "date": "2025-12-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 15800,
+      "note": ""
+    },
+    {
+      "id": "tx_00326",
+      "date": "2025-12-10",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 10800,
+      "note": ""
+    },
+    {
+      "id": "tx_00327",
+      "date": "2025-12-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 12900,
+      "note": ""
+    },
+    {
+      "id": "tx_00328",
+      "date": "2025-12-12",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 4550,
+      "note": ""
+    },
+    {
+      "id": "tx_00329",
+      "date": "2025-12-12",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 6800,
+      "note": ""
+    },
+    {
+      "id": "tx_00330",
+      "date": "2025-12-13",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8250,
+      "note": ""
+    },
+    {
+      "id": "tx_00331",
+      "date": "2025-12-15",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7750,
+      "note": ""
+    },
+    {
+      "id": "tx_00332",
+      "date": "2025-12-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00333",
+      "date": "2025-12-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 3700,
+      "note": ""
+    },
+    {
+      "id": "tx_00334",
+      "date": "2025-12-17",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 11000,
+      "note": ""
+    },
+    {
+      "id": "tx_00335",
+      "date": "2025-12-18",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 2900,
+      "note": ""
+    },
+    {
+      "id": "tx_00336",
+      "date": "2025-12-19",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00337",
+      "date": "2025-12-19",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 7050,
+      "note": ""
+    },
+    {
+      "id": "tx_00338",
+      "date": "2025-12-21",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 4750,
+      "note": ""
+    },
+    {
+      "id": "tx_00339",
+      "date": "2025-12-22",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00340",
+      "date": "2025-12-23",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6400,
+      "note": ""
+    },
+    {
+      "id": "tx_00341",
+      "date": "2025-12-24",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 10000,
+      "note": ""
+    },
+    {
+      "id": "tx_00342",
+      "date": "2025-12-24",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 7150,
+      "note": ""
+    },
+    {
+      "id": "tx_00343",
+      "date": "2025-12-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 17500,
+      "note": ""
+    },
+    {
+      "id": "tx_00344",
+      "date": "2025-12-26",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1700,
+      "note": ""
+    },
+    {
+      "id": "tx_00345",
+      "date": "2025-12-29",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1950,
+      "note": ""
+    },
+    {
+      "id": "tx_00346",
+      "date": "2025-12-30",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 2350,
+      "note": ""
+    },
+    {
+      "id": "tx_00347",
+      "date": "2025-12-31",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 63000,
+      "note": ""
+    },
+    {
+      "id": "tx_00348",
+      "date": "2026-01-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 9300,
+      "note": ""
+    },
+    {
+      "id": "tx_00349",
+      "date": "2026-01-02",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 6450,
+      "note": ""
+    },
+    {
+      "id": "tx_00350",
+      "date": "2026-01-04",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 5350,
+      "note": ""
+    },
+    {
+      "id": "tx_00351",
+      "date": "2026-01-04",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 64500,
+      "note": ""
+    },
+    {
+      "id": "tx_00352",
+      "date": "2026-01-05",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 5250,
+      "note": ""
+    },
+    {
+      "id": "tx_00353",
+      "date": "2026-01-06",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 14800,
+      "note": ""
+    },
+    {
+      "id": "tx_00354",
+      "date": "2026-01-07",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 40000,
+      "note": ""
+    },
+    {
+      "id": "tx_00355",
+      "date": "2026-01-08",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 4100,
+      "note": ""
+    },
+    {
+      "id": "tx_00356",
+      "date": "2026-01-09",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 2900,
+      "note": ""
+    },
+    {
+      "id": "tx_00357",
+      "date": "2026-01-10",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 8550,
+      "note": ""
+    },
+    {
+      "id": "tx_00358",
+      "date": "2026-01-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 109000,
+      "note": ""
+    },
+    {
+      "id": "tx_00359",
+      "date": "2026-01-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 3400,
+      "note": ""
+    },
+    {
+      "id": "tx_00360",
+      "date": "2026-01-13",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 4200,
+      "note": ""
+    },
+    {
+      "id": "tx_00361",
+      "date": "2026-01-14",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 9400,
+      "note": ""
+    },
+    {
+      "id": "tx_00362",
+      "date": "2026-01-14",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 21250,
+      "note": ""
+    },
+    {
+      "id": "tx_00363",
+      "date": "2026-01-15",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 1950,
+      "note": ""
+    },
+    {
+      "id": "tx_00364",
+      "date": "2026-01-16",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 3800,
+      "note": ""
+    },
+    {
+      "id": "tx_00365",
+      "date": "2026-01-16",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 5600,
+      "note": ""
+    },
+    {
+      "id": "tx_00366",
+      "date": "2026-01-19",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 2600,
+      "note": ""
+    },
+    {
+      "id": "tx_00367",
+      "date": "2026-01-21",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 8900,
+      "note": ""
+    },
+    {
+      "id": "tx_00368",
+      "date": "2026-01-23",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 1800,
+      "note": ""
+    },
+    {
+      "id": "tx_00369",
+      "date": "2026-01-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 5500,
+      "note": ""
+    },
+    {
+      "id": "tx_00370",
+      "date": "2026-01-26",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 4700,
+      "note": ""
+    },
+    {
+      "id": "tx_00371",
+      "date": "2026-01-26",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 6900,
+      "note": ""
+    },
+    {
+      "id": "tx_00372",
+      "date": "2026-01-27",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 17600,
+      "note": ""
+    },
+    {
+      "id": "tx_00373",
+      "date": "2026-01-28",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 14100,
+      "note": ""
+    },
+    {
+      "id": "tx_00374",
+      "date": "2026-01-29",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 1700,
+      "note": ""
+    },
+    {
+      "id": "tx_00375",
+      "date": "2026-01-30",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 15500,
+      "note": ""
+    },
+    {
+      "id": "tx_00376",
+      "date": "2026-02-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 3400,
+      "note": ""
+    },
+    {
+      "id": "tx_00377",
+      "date": "2026-02-02",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 750,
+      "note": ""
+    },
+    {
+      "id": "tx_00378",
+      "date": "2026-02-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 1700,
+      "note": ""
+    },
+    {
+      "id": "tx_00379",
+      "date": "2026-02-03",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 1150,
+      "note": ""
+    },
+    {
+      "id": "tx_00380",
+      "date": "2026-02-04",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 1900,
+      "note": ""
+    },
+    {
+      "id": "tx_00381",
+      "date": "2026-02-05",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 45500,
+      "note": ""
+    },
+    {
+      "id": "tx_00382",
+      "date": "2026-02-06",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 5800,
+      "note": ""
+    },
+    {
+      "id": "tx_00383",
+      "date": "2026-02-06",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 6700,
+      "note": ""
+    },
+    {
+      "id": "tx_00384",
+      "date": "2026-02-07",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1500,
+      "note": ""
+    },
+    {
+      "id": "tx_00385",
+      "date": "2026-02-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 14100,
+      "note": ""
+    },
+    {
+      "id": "tx_00386",
+      "date": "2026-02-13",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 2700,
+      "note": ""
+    },
+    {
+      "id": "tx_00387",
+      "date": "2026-02-13",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 3900,
+      "note": ""
+    },
+    {
+      "id": "tx_00388",
+      "date": "2026-02-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 6700,
+      "note": ""
+    },
+    {
+      "id": "tx_00389",
+      "date": "2026-02-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 12700,
+      "note": ""
+    },
+    {
+      "id": "tx_00390",
+      "date": "2026-02-18",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 4800,
+      "note": ""
+    },
+    {
+      "id": "tx_00391",
+      "date": "2026-02-19",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 9900,
+      "note": ""
+    },
+    {
+      "id": "tx_00392",
+      "date": "2026-02-20",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 12300,
+      "note": ""
+    },
+    {
+      "id": "tx_00393",
+      "date": "2026-02-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 1850,
+      "note": ""
+    },
+    {
+      "id": "tx_00394",
+      "date": "2026-02-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00395",
+      "date": "2026-02-24",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 36000,
+      "note": ""
+    },
+    {
+      "id": "tx_00396",
+      "date": "2026-02-24",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00397",
+      "date": "2026-02-25",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00398",
+      "date": "2026-02-26",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7000,
+      "note": ""
+    },
+    {
+      "id": "tx_00399",
+      "date": "2026-02-27",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 11500,
+      "note": ""
+    },
+    {
+      "id": "tx_00400",
+      "date": "2026-03-02",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6600,
+      "note": ""
+    },
+    {
+      "id": "tx_00401",
+      "date": "2026-03-03",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00402",
+      "date": "2026-03-04",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8600,
+      "note": ""
+    },
+    {
+      "id": "tx_00403",
+      "date": "2026-03-05",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00404",
+      "date": "2026-03-08",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 9900,
+      "note": ""
+    },
+    {
+      "id": "tx_00405",
+      "date": "2026-03-08",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 7400,
+      "note": ""
+    },
+    {
+      "id": "tx_00406",
+      "date": "2026-03-09",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00407",
+      "date": "2026-03-09",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1850,
+      "note": ""
+    },
+    {
+      "id": "tx_00408",
+      "date": "2026-03-11",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 4400,
+      "note": ""
+    },
+    {
+      "id": "tx_00409",
+      "date": "2026-03-12",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 8500,
+      "note": ""
+    },
+    {
+      "id": "tx_00410",
+      "date": "2026-03-13",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 7350,
+      "note": ""
+    },
+    {
+      "id": "tx_00411",
+      "date": "2026-03-16",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00412",
+      "date": "2026-03-17",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8350,
+      "note": ""
+    },
+    {
+      "id": "tx_00413",
+      "date": "2026-03-18",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 17000,
+      "note": ""
+    },
+    {
+      "id": "tx_00414",
+      "date": "2026-03-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 3350,
+      "note": ""
+    },
+    {
+      "id": "tx_00415",
+      "date": "2026-03-19",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 11500,
+      "note": ""
+    },
+    {
+      "id": "tx_00416",
+      "date": "2026-03-19",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 5000,
+      "note": ""
+    },
+    {
+      "id": "tx_00417",
+      "date": "2026-03-20",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 5950,
+      "note": ""
+    },
+    {
+      "id": "tx_00418",
+      "date": "2026-03-21",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 2350,
+      "note": ""
+    },
+    {
+      "id": "tx_00419",
+      "date": "2026-03-23",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 16500,
+      "note": ""
+    },
+    {
+      "id": "tx_00420",
+      "date": "2026-03-25",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 6000,
+      "note": ""
+    },
+    {
+      "id": "tx_00421",
+      "date": "2026-03-26",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 14800,
+      "note": ""
+    },
+    {
+      "id": "tx_00422",
+      "date": "2026-03-27",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 16100,
+      "note": ""
+    },
+    {
+      "id": "tx_00423",
+      "date": "2026-03-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1650,
+      "note": ""
+    },
+    {
+      "id": "tx_00424",
+      "date": "2026-03-30",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 11500,
+      "note": ""
+    },
+    {
+      "id": "tx_00425",
+      "date": "2026-03-30",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00426",
+      "date": "2026-03-31",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8750,
+      "note": ""
+    },
+    {
+      "id": "tx_00427",
+      "date": "2026-03-31",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 39750,
+      "note": ""
+    },
+    {
+      "id": "tx_00428",
+      "date": "2026-04-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1600,
+      "note": ""
+    },
+    {
+      "id": "tx_00429",
+      "date": "2026-04-01",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 2300,
+      "note": ""
+    },
+    {
+      "id": "tx_00430",
+      "date": "2026-04-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00431",
+      "date": "2026-04-02",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 2500,
+      "note": ""
+    },
+    {
+      "id": "tx_00432",
+      "date": "2026-04-03",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 9150,
+      "note": ""
+    },
+    {
+      "id": "tx_00433",
+      "date": "2026-04-05",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00434",
+      "date": "2026-04-06",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 8550,
+      "note": ""
+    },
+    {
+      "id": "tx_00435",
+      "date": "2026-04-07",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 62000,
+      "note": ""
+    },
+    {
+      "id": "tx_00436",
+      "date": "2026-04-08",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 10650,
+      "note": ""
+    },
+    {
+      "id": "tx_00437",
+      "date": "2026-04-09",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 11300,
+      "note": ""
+    },
+    {
+      "id": "tx_00438",
+      "date": "2026-04-10",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 9500,
+      "note": ""
+    },
+    {
+      "id": "tx_00439",
+      "date": "2026-04-11",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 9900,
+      "note": ""
+    },
+    {
+      "id": "tx_00440",
+      "date": "2026-04-11",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 4150,
+      "note": ""
+    },
+    {
+      "id": "tx_00441",
+      "date": "2026-04-13",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00442",
+      "date": "2026-04-14",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00443",
+      "date": "2026-04-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 16000,
+      "note": ""
+    },
+    {
+      "id": "tx_00444",
+      "date": "2026-04-15",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 7400,
+      "note": ""
+    },
+    {
+      "id": "tx_00445",
+      "date": "2026-04-16",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 2900,
+      "note": ""
+    },
+    {
+      "id": "tx_00446",
+      "date": "2026-04-16",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 5400,
+      "note": ""
+    },
+    {
+      "id": "tx_00447",
+      "date": "2026-04-17",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00448",
+      "date": "2026-04-17",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 4650,
+      "note": ""
+    },
+    {
+      "id": "tx_00449",
+      "date": "2026-04-18",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 7650,
+      "note": ""
+    },
+    {
+      "id": "tx_00450",
+      "date": "2026-04-19",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 17100,
+      "note": ""
+    },
+    {
+      "id": "tx_00451",
+      "date": "2026-04-19",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8500,
+      "note": ""
+    },
+    {
+      "id": "tx_00452",
+      "date": "2026-04-20",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 8650,
+      "note": ""
+    },
+    {
+      "id": "tx_00453",
+      "date": "2026-04-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00454",
+      "date": "2026-04-22",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 11800,
+      "note": ""
+    },
+    {
+      "id": "tx_00455",
+      "date": "2026-04-22",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00456",
+      "date": "2026-04-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 11850,
+      "note": ""
+    },
+    {
+      "id": "tx_00457",
+      "date": "2026-04-24",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 11550,
+      "note": ""
+    },
+    {
+      "id": "tx_00458",
+      "date": "2026-04-24",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 850,
+      "note": ""
+    },
+    {
+      "id": "tx_00459",
+      "date": "2026-04-27",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 4600,
+      "note": ""
+    },
+    {
+      "id": "tx_00460",
+      "date": "2026-04-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 4200,
+      "note": ""
+    },
+    {
+      "id": "tx_00461",
+      "date": "2026-04-29",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 900,
+      "note": ""
+    },
+    {
+      "id": "tx_00462",
+      "date": "2026-04-30",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 1850,
+      "note": ""
+    },
+    {
+      "id": "tx_00463",
+      "date": "2026-04-30",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 88000,
+      "note": ""
+    },
+    {
+      "id": "tx_00464",
+      "date": "2026-05-04",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 6500,
+      "note": ""
+    },
+    {
+      "id": "tx_00465",
+      "date": "2026-05-04",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 15800,
+      "note": ""
+    },
+    {
+      "id": "tx_00466",
+      "date": "2026-05-05",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 4500,
+      "note": ""
+    },
+    {
+      "id": "tx_00467",
+      "date": "2026-05-07",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 48500,
+      "note": ""
+    },
+    {
+      "id": "tx_00468",
+      "date": "2026-05-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 17400,
+      "note": ""
+    },
+    {
+      "id": "tx_00469",
+      "date": "2026-05-11",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 2000,
+      "note": ""
+    },
+    {
+      "id": "tx_00470",
+      "date": "2026-05-11",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 12900,
+      "note": ""
+    },
+    {
+      "id": "tx_00471",
+      "date": "2026-05-12",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 7950,
+      "note": ""
+    },
+    {
+      "id": "tx_00472",
+      "date": "2026-05-13",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 1650,
+      "note": ""
+    },
+    {
+      "id": "tx_00473",
+      "date": "2026-05-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7500,
+      "note": ""
+    },
+    {
+      "id": "tx_00474",
+      "date": "2026-05-14",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 6100,
+      "note": ""
+    },
+    {
+      "id": "tx_00475",
+      "date": "2026-05-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 15400,
+      "note": ""
+    },
+    {
+      "id": "tx_00476",
+      "date": "2026-05-15",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 9450,
+      "note": ""
+    },
+    {
+      "id": "tx_00477",
+      "date": "2026-05-19",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 11100,
+      "note": ""
+    },
+    {
+      "id": "tx_00478",
+      "date": "2026-05-19",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 9900,
+      "note": ""
+    },
+    {
+      "id": "tx_00479",
+      "date": "2026-05-20",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00480",
+      "date": "2026-05-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 12400,
+      "note": ""
+    },
+    {
+      "id": "tx_00481",
+      "date": "2026-05-22",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 9100,
+      "note": ""
+    },
+    {
+      "id": "tx_00482",
+      "date": "2026-05-23",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 5800,
+      "note": ""
+    },
+    {
+      "id": "tx_00483",
+      "date": "2026-05-25",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 6350,
+      "note": ""
+    },
+    {
+      "id": "tx_00484",
+      "date": "2026-05-26",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 11300,
+      "note": ""
+    },
+    {
+      "id": "tx_00485",
+      "date": "2026-05-26",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 8100,
+      "note": ""
+    },
+    {
+      "id": "tx_00486",
+      "date": "2026-05-27",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 10600,
+      "note": ""
+    },
+    {
+      "id": "tx_00487",
+      "date": "2026-05-27",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 11050,
+      "note": ""
+    },
+    {
+      "id": "tx_00488",
+      "date": "2026-05-28",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 3750,
+      "note": ""
+    },
+    {
+      "id": "tx_00489",
+      "date": "2026-05-28",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10650,
+      "note": ""
+    },
+    {
+      "id": "tx_00490",
+      "date": "2026-05-29",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00491",
+      "date": "2026-05-30",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1350,
+      "note": ""
+    },
+    {
+      "id": "tx_00492",
+      "date": "2026-06-01",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 11000,
+      "note": ""
+    },
+    {
+      "id": "tx_00493",
+      "date": "2026-06-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 4550,
+      "note": ""
+    },
+    {
+      "id": "tx_00494",
+      "date": "2026-06-02",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1550,
+      "note": ""
+    },
+    {
+      "id": "tx_00495",
+      "date": "2026-06-03",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 3450,
+      "note": ""
+    },
+    {
+      "id": "tx_00496",
+      "date": "2026-06-05",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 1550,
+      "note": ""
+    },
+    {
+      "id": "tx_00497",
+      "date": "2026-06-08",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 6650,
+      "note": ""
+    },
+    {
+      "id": "tx_00498",
+      "date": "2026-06-09",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 7650,
+      "note": ""
+    },
+    {
+      "id": "tx_00499",
+      "date": "2026-06-10",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 9000,
+      "note": ""
+    },
+    {
+      "id": "tx_00500",
+      "date": "2026-06-10",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 9950,
+      "note": ""
+    },
+    {
+      "id": "tx_00501",
+      "date": "2026-06-12",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 13900,
+      "note": ""
+    },
+    {
+      "id": "tx_00502",
+      "date": "2026-06-12",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8200,
+      "note": ""
+    },
+    {
+      "id": "tx_00503",
+      "date": "2026-06-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 15400,
+      "note": ""
+    },
+    {
+      "id": "tx_00504",
+      "date": "2026-06-15",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 350,
+      "note": ""
+    },
+    {
+      "id": "tx_00505",
+      "date": "2026-06-16",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 4900,
+      "note": ""
+    },
+    {
+      "id": "tx_00506",
+      "date": "2026-06-17",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 1600,
+      "note": ""
+    },
+    {
+      "id": "tx_00507",
+      "date": "2026-06-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 8450,
+      "note": ""
+    },
+    {
+      "id": "tx_00508",
+      "date": "2026-06-19",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00509",
+      "date": "2026-06-22",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00510",
+      "date": "2026-06-24",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7900,
+      "note": ""
+    },
+    {
+      "id": "tx_00511",
+      "date": "2026-06-25",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 13900,
+      "note": ""
+    },
+    {
+      "id": "tx_00512",
+      "date": "2026-06-26",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 900,
+      "note": ""
+    },
+    {
+      "id": "tx_00513",
+      "date": "2026-06-27",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 16500,
+      "note": ""
+    },
+    {
+      "id": "tx_00514",
+      "date": "2026-06-29",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 2550,
+      "note": ""
+    },
+    {
+      "id": "tx_00515",
+      "date": "2026-06-29",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 4650,
+      "note": ""
+    },
+    {
+      "id": "tx_00516",
+      "date": "2026-06-30",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 6250,
+      "note": ""
+    },
+    {
+      "id": "tx_00517",
+      "date": "2026-07-01",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 8150,
+      "note": ""
+    },
+    {
+      "id": "tx_00518",
+      "date": "2026-07-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 86000,
+      "note": ""
+    },
+    {
+      "id": "tx_00519",
+      "date": "2026-07-03",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00520",
+      "date": "2026-07-06",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00521",
+      "date": "2026-07-07",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5750,
+      "note": ""
+    },
+    {
+      "id": "tx_00522",
+      "date": "2026-07-08",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 5300,
+      "note": ""
+    },
+    {
+      "id": "tx_00523",
+      "date": "2026-07-10",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00524",
+      "date": "2026-07-13",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 10250,
+      "note": ""
+    },
+    {
+      "id": "tx_00525",
+      "date": "2026-07-13",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 10500,
+      "note": ""
+    },
+    {
+      "id": "tx_00526",
+      "date": "2026-07-14",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 11050,
+      "note": ""
+    },
+    {
+      "id": "tx_00527",
+      "date": "2026-07-14",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 17300,
+      "note": ""
+    },
+    {
+      "id": "tx_00528",
+      "date": "2026-07-15",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1250,
+      "note": ""
+    },
+    {
+      "id": "tx_00529",
+      "date": "2026-07-15",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 13900,
+      "note": ""
+    },
+    {
+      "id": "tx_00530",
+      "date": "2026-07-16",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 15300,
+      "note": ""
+    },
+    {
+      "id": "tx_00531",
+      "date": "2026-07-17",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 13200,
+      "note": ""
+    },
+    {
+      "id": "tx_00532",
+      "date": "2026-07-17",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 3800,
+      "note": ""
+    },
+    {
+      "id": "tx_00533",
+      "date": "2026-07-18",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7650,
+      "note": ""
+    },
+    {
+      "id": "tx_00534",
+      "date": "2026-07-21",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 8400,
+      "note": ""
+    },
+    {
+      "id": "tx_00535",
+      "date": "2026-07-22",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 6100,
+      "note": ""
+    },
+    {
+      "id": "tx_00536",
+      "date": "2026-07-22",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 7950,
+      "note": ""
+    },
+    {
+      "id": "tx_00537",
+      "date": "2026-07-23",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 11500,
+      "note": ""
+    },
+    {
+      "id": "tx_00538",
+      "date": "2026-07-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 52000,
+      "note": ""
+    },
+    {
+      "id": "tx_00539",
+      "date": "2026-07-28",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 15800,
+      "note": ""
+    },
+    {
+      "id": "tx_00540",
+      "date": "2026-07-29",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 17700,
+      "note": ""
+    },
+    {
+      "id": "tx_00541",
+      "date": "2026-07-30",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 2050,
+      "note": ""
+    },
+    {
+      "id": "tx_00542",
+      "date": "2026-07-30",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 6700,
+      "note": ""
+    },
+    {
+      "id": "tx_00543",
+      "date": "2026-07-31",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00544",
+      "date": "2026-07-31",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 3400,
+      "note": ""
+    },
+    {
+      "id": "tx_00545",
+      "date": "2026-08-03",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 1150,
+      "note": ""
+    },
+    {
+      "id": "tx_00546",
+      "date": "2026-08-04",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 6350,
+      "note": ""
+    },
+    {
+      "id": "tx_00547",
+      "date": "2026-08-05",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 2100,
+      "note": ""
+    },
+    {
+      "id": "tx_00548",
+      "date": "2026-08-05",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 3800,
+      "note": ""
+    },
+    {
+      "id": "tx_00549",
+      "date": "2026-08-06",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 2250,
+      "note": ""
+    },
+    {
+      "id": "tx_00550",
+      "date": "2026-08-07",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 6750,
+      "note": ""
+    },
+    {
+      "id": "tx_00551",
+      "date": "2026-08-07",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 5400,
+      "note": ""
+    },
+    {
+      "id": "tx_00552",
+      "date": "2026-08-10",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 12800,
+      "note": ""
+    },
+    {
+      "id": "tx_00553",
+      "date": "2026-08-11",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 2500,
+      "note": ""
+    },
+    {
+      "id": "tx_00554",
+      "date": "2026-08-12",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 3100,
+      "note": ""
+    },
+    {
+      "id": "tx_00555",
+      "date": "2026-08-13",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10750,
+      "note": ""
+    },
+    {
+      "id": "tx_00556",
+      "date": "2026-08-14",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 7000,
+      "note": ""
+    },
+    {
+      "id": "tx_00557",
+      "date": "2026-08-16",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10100,
+      "note": ""
+    },
+    {
+      "id": "tx_00558",
+      "date": "2026-08-17",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10450,
+      "note": ""
+    },
+    {
+      "id": "tx_00559",
+      "date": "2026-08-17",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 15500,
+      "note": ""
+    },
+    {
+      "id": "tx_00560",
+      "date": "2026-08-18",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00561",
+      "date": "2026-08-18",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 900,
+      "note": ""
+    },
+    {
+      "id": "tx_00562",
+      "date": "2026-08-19",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 1550,
+      "note": ""
+    },
+    {
+      "id": "tx_00563",
+      "date": "2026-08-19",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 4850,
+      "note": ""
+    },
+    {
+      "id": "tx_00564",
+      "date": "2026-08-20",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 7300,
+      "note": ""
+    },
+    {
+      "id": "tx_00565",
+      "date": "2026-08-24",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3100,
+      "note": ""
+    },
+    {
+      "id": "tx_00566",
+      "date": "2026-08-24",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 9400,
+      "note": ""
+    },
+    {
+      "id": "tx_00567",
+      "date": "2026-08-25",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 6200,
+      "note": ""
+    },
+    {
+      "id": "tx_00568",
+      "date": "2026-08-26",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 10600,
+      "note": ""
+    },
+    {
+      "id": "tx_00569",
+      "date": "2026-08-26",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10100,
+      "note": ""
+    },
+    {
+      "id": "tx_00570",
+      "date": "2026-08-27",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 53250,
+      "note": ""
+    },
+    {
+      "id": "tx_00571",
+      "date": "2026-08-28",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00572",
+      "date": "2026-08-31",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 7200,
+      "note": ""
+    },
+    {
+      "id": "tx_00573",
+      "date": "2026-08-31",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 7950,
+      "note": ""
+    },
+    {
+      "id": "tx_00574",
+      "date": "2026-09-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 2600,
+      "note": ""
+    },
+    {
+      "id": "tx_00575",
+      "date": "2026-09-03",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 7550,
+      "note": ""
+    },
+    {
+      "id": "tx_00576",
+      "date": "2026-09-04",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 6050,
+      "note": ""
+    },
+    {
+      "id": "tx_00577",
+      "date": "2026-09-05",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8850,
+      "note": ""
+    },
+    {
+      "id": "tx_00578",
+      "date": "2026-09-05",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 300,
+      "note": ""
+    },
+    {
+      "id": "tx_00579",
+      "date": "2026-09-06",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 7250,
+      "note": ""
+    },
+    {
+      "id": "tx_00580",
+      "date": "2026-09-07",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 9750,
+      "note": ""
+    },
+    {
+      "id": "tx_00581",
+      "date": "2026-09-07",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 3250,
+      "note": ""
+    },
+    {
+      "id": "tx_00582",
+      "date": "2026-09-08",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 10150,
+      "note": ""
+    },
+    {
+      "id": "tx_00583",
+      "date": "2026-09-10",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 7100,
+      "note": ""
+    },
+    {
+      "id": "tx_00584",
+      "date": "2026-09-11",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 7550,
+      "note": ""
+    },
+    {
+      "id": "tx_00585",
+      "date": "2026-09-14",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10400,
+      "note": ""
+    },
+    {
+      "id": "tx_00586",
+      "date": "2026-09-14",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 4600,
+      "note": ""
+    },
+    {
+      "id": "tx_00587",
+      "date": "2026-09-15",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 300,
+      "note": ""
+    },
+    {
+      "id": "tx_00588",
+      "date": "2026-09-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 10000,
+      "note": ""
+    },
+    {
+      "id": "tx_00589",
+      "date": "2026-09-16",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 4850,
+      "note": ""
+    },
+    {
+      "id": "tx_00590",
+      "date": "2026-09-16",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 10100,
+      "note": ""
+    },
+    {
+      "id": "tx_00591",
+      "date": "2026-09-17",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1450,
+      "note": ""
+    },
+    {
+      "id": "tx_00592",
+      "date": "2026-09-17",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 2700,
+      "note": ""
+    },
+    {
+      "id": "tx_00593",
+      "date": "2026-09-18",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 11050,
+      "note": ""
+    },
+    {
+      "id": "tx_00594",
+      "date": "2026-09-18",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 32500,
+      "note": ""
+    },
+    {
+      "id": "tx_00595",
+      "date": "2026-09-19",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 9700,
+      "note": ""
+    },
+    {
+      "id": "tx_00596",
+      "date": "2026-09-20",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 450,
+      "note": ""
+    },
+    {
+      "id": "tx_00597",
+      "date": "2026-09-21",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8500,
+      "note": ""
+    },
+    {
+      "id": "tx_00598",
+      "date": "2026-09-22",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 11550,
+      "note": ""
+    },
+    {
+      "id": "tx_00599",
+      "date": "2026-09-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8350,
+      "note": ""
+    },
+    {
+      "id": "tx_00600",
+      "date": "2026-09-24",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 2250,
+      "note": ""
+    },
+    {
+      "id": "tx_00601",
+      "date": "2026-09-25",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 5250,
+      "note": ""
+    },
+    {
+      "id": "tx_00602",
+      "date": "2026-09-28",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 3200,
+      "note": ""
+    },
+    {
+      "id": "tx_00603",
+      "date": "2026-09-28",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 3200,
+      "note": ""
+    },
+    {
+      "id": "tx_00604",
+      "date": "2026-09-29",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 3550,
+      "note": ""
+    },
+    {
+      "id": "tx_00605",
+      "date": "2026-09-30",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 8000,
+      "note": ""
+    },
+    {
+      "id": "tx_00606",
+      "date": "2026-10-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 9100,
+      "note": ""
+    },
+    {
+      "id": "tx_00607",
+      "date": "2026-10-01",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 9100,
+      "note": ""
+    },
+    {
+      "id": "tx_00608",
+      "date": "2026-10-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8350,
+      "note": ""
+    },
+    {
+      "id": "tx_00609",
+      "date": "2026-10-05",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 800,
+      "note": ""
+    },
+    {
+      "id": "tx_00610",
+      "date": "2026-10-06",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 9850,
+      "note": ""
+    },
+    {
+      "id": "tx_00611",
+      "date": "2026-10-07",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 2600,
+      "note": ""
+    },
+    {
+      "id": "tx_00612",
+      "date": "2026-10-08",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00613",
+      "date": "2026-10-09",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 3650,
+      "note": ""
+    },
+    {
+      "id": "tx_00614",
+      "date": "2026-10-12",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 3650,
+      "note": ""
+    },
+    {
+      "id": "tx_00615",
+      "date": "2026-10-13",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 1500,
+      "note": ""
+    },
+    {
+      "id": "tx_00616",
+      "date": "2026-10-13",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1000,
+      "note": ""
+    },
+    {
+      "id": "tx_00617",
+      "date": "2026-10-14",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 10300,
+      "note": ""
+    },
+    {
+      "id": "tx_00618",
+      "date": "2026-10-15",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 10800,
+      "note": ""
+    },
+    {
+      "id": "tx_00619",
+      "date": "2026-10-16",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 1750,
+      "note": ""
+    },
+    {
+      "id": "tx_00620",
+      "date": "2026-10-19",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 6850,
+      "note": ""
+    },
+    {
+      "id": "tx_00621",
+      "date": "2026-10-19",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 9000,
+      "note": ""
+    },
+    {
+      "id": "tx_00622",
+      "date": "2026-10-20",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 17800,
+      "note": ""
+    },
+    {
+      "id": "tx_00623",
+      "date": "2026-10-21",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 3800,
+      "note": ""
+    },
+    {
+      "id": "tx_00624",
+      "date": "2026-10-23",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 10050,
+      "note": ""
+    },
+    {
+      "id": "tx_00625",
+      "date": "2026-10-24",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 9900,
+      "note": ""
+    },
+    {
+      "id": "tx_00626",
+      "date": "2026-10-24",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 10300,
+      "note": ""
+    },
+    {
+      "id": "tx_00627",
+      "date": "2026-10-26",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 11600,
+      "note": ""
+    },
+    {
+      "id": "tx_00628",
+      "date": "2026-10-27",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 700,
+      "note": ""
+    },
+    {
+      "id": "tx_00629",
+      "date": "2026-10-28",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 7150,
+      "note": ""
+    },
+    {
+      "id": "tx_00630",
+      "date": "2026-10-29",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 6950,
+      "note": ""
+    },
+    {
+      "id": "tx_00631",
+      "date": "2026-10-30",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 17100,
+      "note": ""
+    },
+    {
+      "id": "tx_00632",
+      "date": "2026-11-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 14500,
+      "note": ""
+    },
+    {
+      "id": "tx_00633",
+      "date": "2026-11-02",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 9000,
+      "note": ""
+    },
+    {
+      "id": "tx_00634",
+      "date": "2026-11-02",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 11350,
+      "note": ""
+    },
+    {
+      "id": "tx_00635",
+      "date": "2026-11-03",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 10700,
+      "note": ""
+    },
+    {
+      "id": "tx_00636",
+      "date": "2026-11-03",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 46500,
+      "note": ""
+    },
+    {
+      "id": "tx_00637",
+      "date": "2026-11-04",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 11400,
+      "note": ""
+    },
+    {
+      "id": "tx_00638",
+      "date": "2026-11-05",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 2950,
+      "note": ""
+    },
+    {
+      "id": "tx_00639",
+      "date": "2026-11-06",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 7100,
+      "note": ""
+    },
+    {
+      "id": "tx_00640",
+      "date": "2026-11-09",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 1500,
+      "note": ""
+    },
+    {
+      "id": "tx_00641",
+      "date": "2026-11-10",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 4700,
+      "note": ""
+    },
+    {
+      "id": "tx_00642",
+      "date": "2026-11-11",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 3250,
+      "note": ""
+    },
+    {
+      "id": "tx_00643",
+      "date": "2026-11-12",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 12200,
+      "note": ""
+    },
+    {
+      "id": "tx_00644",
+      "date": "2026-11-17",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00645",
+      "date": "2026-11-18",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_003",
+      "amount": 15700,
+      "note": ""
+    },
+    {
+      "id": "tx_00646",
+      "date": "2026-11-19",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 9450,
+      "note": ""
+    },
+    {
+      "id": "tx_00647",
+      "date": "2026-11-20",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 56000,
+      "note": ""
+    },
+    {
+      "id": "tx_00648",
+      "date": "2026-11-23",
+      "type": "expense",
+      "category": "Services",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 10650,
+      "note": ""
+    },
+    {
+      "id": "tx_00649",
+      "date": "2026-11-23",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10050,
+      "note": ""
+    },
+    {
+      "id": "tx_00650",
+      "date": "2026-11-24",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8900,
+      "note": ""
+    },
+    {
+      "id": "tx_00651",
+      "date": "2026-11-25",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_001",
+      "clientId": "cli_002",
+      "amount": 10800,
+      "note": ""
+    },
+    {
+      "id": "tx_00652",
+      "date": "2026-11-25",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 2050,
+      "note": ""
+    },
+    {
+      "id": "tx_00653",
+      "date": "2026-11-26",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 2900,
+      "note": ""
+    },
+    {
+      "id": "tx_00654",
+      "date": "2026-11-27",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 15400,
+      "note": ""
+    },
+    {
+      "id": "tx_00655",
+      "date": "2026-11-28",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_004",
+      "clientId": "cli_004",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00656",
+      "date": "2026-11-29",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_004",
+      "amount": 8600,
+      "note": ""
+    },
+    {
+      "id": "tx_00657",
+      "date": "2026-11-29",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 12000,
+      "note": ""
+    },
+    {
+      "id": "tx_00658",
+      "date": "2026-11-30",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7000,
+      "note": ""
+    },
+    {
+      "id": "tx_00659",
+      "date": "2026-12-01",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 1300,
+      "note": ""
+    },
+    {
+      "id": "tx_00660",
+      "date": "2026-12-02",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 2000,
+      "note": ""
+    },
+    {
+      "id": "tx_00661",
+      "date": "2026-12-03",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 8000,
+      "note": ""
+    },
+    {
+      "id": "tx_00662",
+      "date": "2026-12-04",
+      "type": "income",
+      "category": "Consulting",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 17700,
+      "note": ""
+    },
+    {
+      "id": "tx_00663",
+      "date": "2026-12-05",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 5050,
+      "note": ""
+    },
+    {
+      "id": "tx_00664",
+      "date": "2026-12-07",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 15100,
+      "note": ""
+    },
+    {
+      "id": "tx_00665",
+      "date": "2026-12-07",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 9300,
+      "note": ""
+    },
+    {
+      "id": "tx_00666",
+      "date": "2026-12-08",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_003",
+      "clientId": "cli_001",
+      "amount": 6600,
+      "note": ""
+    },
+    {
+      "id": "tx_00667",
+      "date": "2026-12-09",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 550,
+      "note": ""
+    },
+    {
+      "id": "tx_00668",
+      "date": "2026-12-10",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 5050,
+      "note": ""
+    },
+    {
+      "id": "tx_00669",
+      "date": "2026-12-11",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 4400,
+      "note": ""
+    },
+    {
+      "id": "tx_00670",
+      "date": "2026-12-11",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 8950,
+      "note": ""
+    },
+    {
+      "id": "tx_00671",
+      "date": "2026-12-15",
+      "type": "expense",
+      "category": "Utilities",
+      "propertyId": "prop_002",
+      "clientId": "cli_003",
+      "amount": 7400,
+      "note": ""
+    },
+    {
+      "id": "tx_00672",
+      "date": "2026-12-16",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 10900,
+      "note": ""
+    },
+    {
+      "id": "tx_00673",
+      "date": "2026-12-17",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_003",
+      "clientId": "cli_002",
+      "amount": 12100,
+      "note": ""
+    },
+    {
+      "id": "tx_00674",
+      "date": "2026-12-18",
+      "type": "income",
+      "category": "Management Fee",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 16400,
+      "note": ""
+    },
+    {
+      "id": "tx_00675",
+      "date": "2026-12-18",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 2800,
+      "note": ""
+    },
+    {
+      "id": "tx_00676",
+      "date": "2026-12-21",
+      "type": "expense",
+      "category": "Maintenance",
+      "propertyId": "prop_002",
+      "clientId": "cli_001",
+      "amount": 1950,
+      "note": ""
+    },
+    {
+      "id": "tx_00677",
+      "date": "2026-12-22",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_002",
+      "clientId": "cli_002",
+      "amount": 3000,
+      "note": ""
+    },
+    {
+      "id": "tx_00678",
+      "date": "2026-12-23",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_004",
+      "clientId": "cli_002",
+      "amount": 6450,
+      "note": ""
+    },
+    {
+      "id": "tx_00679",
+      "date": "2026-12-24",
+      "type": "expense",
+      "category": "Salaries",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 9400,
+      "note": ""
+    },
+    {
+      "id": "tx_00680",
+      "date": "2026-12-25",
+      "type": "income",
+      "category": "Investment Income",
+      "propertyId": "prop_001",
+      "clientId": "cli_004",
+      "amount": 14000,
+      "note": ""
+    },
+    {
+      "id": "tx_00681",
+      "date": "2026-12-28",
+      "type": "income",
+      "category": "Rent",
+      "propertyId": "prop_004",
+      "clientId": "cli_003",
+      "amount": 8100,
+      "note": ""
+    },
+    {
+      "id": "tx_00682",
+      "date": "2026-12-29",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_004",
+      "clientId": "cli_001",
+      "amount": 10800,
+      "note": ""
+    },
+    {
+      "id": "tx_00683",
+      "date": "2026-12-29",
+      "type": "expense",
+      "category": "Marketing",
+      "propertyId": "prop_002",
+      "clientId": "cli_004",
+      "amount": 10150,
+      "note": ""
+    },
+    {
+      "id": "tx_00684",
+      "date": "2026-12-30",
+      "type": "income",
+      "category": "Sales",
+      "propertyId": "prop_001",
+      "clientId": "cli_003",
+      "amount": 5900,
+      "note": ""
+    },
+    {
+      "id": "tx_00685",
+      "date": "2026-12-31",
+      "type": "expense",
+      "category": "Operations",
+      "propertyId": "prop_001",
+      "clientId": "cli_001",
+      "amount": 9550,
+      "note": ""
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_00001",
+      "issueDate": "2025-01-23",
+      "dueDate": "2025-02-13",
+      "clientId": "cli_003",
+      "propertyId": "prop_001",
+      "status": "pending",
+      "total": 29300
+    },
+    {
+      "id": "inv_00002",
+      "issueDate": "2025-02-17",
+      "dueDate": "2025-03-19",
+      "clientId": "cli_002",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 30650
+    },
+    {
+      "id": "inv_00003",
+      "issueDate": "2025-02-06",
+      "dueDate": "2025-02-27",
+      "clientId": "cli_002",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 46950
+    },
+    {
+      "id": "inv_00004",
+      "issueDate": "2025-02-23",
+      "dueDate": "2025-03-09",
+      "clientId": "cli_004",
+      "propertyId": "prop_003",
+      "status": "pending",
+      "total": 18300
+    },
+    {
+      "id": "inv_00005",
+      "issueDate": "2025-03-10",
+      "dueDate": "2025-04-09",
+      "clientId": "cli_002",
+      "propertyId": "prop_001",
+      "status": "overdue",
+      "total": 9200
+    },
+    {
+      "id": "inv_00006",
+      "issueDate": "2025-03-01",
+      "dueDate": "2025-03-31",
+      "clientId": "cli_003",
+      "propertyId": "prop_001",
+      "status": "paid",
+      "total": 25950
+    },
+    {
+      "id": "inv_00007",
+      "issueDate": "2025-04-18",
+      "dueDate": "2025-05-02",
+      "clientId": "cli_004",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 13600
+    },
+    {
+      "id": "inv_00008",
+      "issueDate": "2025-04-16",
+      "dueDate": "2025-05-07",
+      "clientId": "cli_004",
+      "propertyId": "prop_004",
+      "status": "pending",
+      "total": 6550
+    },
+    {
+      "id": "inv_00009",
+      "issueDate": "2025-05-08",
+      "dueDate": "2025-06-07",
+      "clientId": "cli_003",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 5000
+    },
+    {
+      "id": "inv_00010",
+      "issueDate": "2025-06-21",
+      "dueDate": "2025-07-12",
+      "clientId": "cli_001",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 46200
+    },
+    {
+      "id": "inv_00011",
+      "issueDate": "2025-07-20",
+      "dueDate": "2025-08-10",
+      "clientId": "cli_003",
+      "propertyId": "prop_001",
+      "status": "paid",
+      "total": 5000
+    },
+    {
+      "id": "inv_00012",
+      "issueDate": "2025-07-06",
+      "dueDate": "2025-07-20",
+      "clientId": "cli_003",
+      "propertyId": "prop_002",
+      "status": "pending",
+      "total": 25800
+    },
+    {
+      "id": "inv_00013",
+      "issueDate": "2025-07-12",
+      "dueDate": "2025-07-26",
+      "clientId": "cli_001",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 19000
+    },
+    {
+      "id": "inv_00014",
+      "issueDate": "2025-08-03",
+      "dueDate": "2025-08-24",
+      "clientId": "cli_001",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 26600
+    },
+    {
+      "id": "inv_00015",
+      "issueDate": "2025-08-23",
+      "dueDate": "2025-09-13",
+      "clientId": "cli_003",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 29350
+    },
+    {
+      "id": "inv_00016",
+      "issueDate": "2025-09-20",
+      "dueDate": "2025-10-04",
+      "clientId": "cli_001",
+      "propertyId": "prop_001",
+      "status": "pending",
+      "total": 27250
+    },
+    {
+      "id": "inv_00017",
+      "issueDate": "2025-10-23",
+      "dueDate": "2025-11-13",
+      "clientId": "cli_004",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 15750
+    },
+    {
+      "id": "inv_00018",
+      "issueDate": "2025-10-20",
+      "dueDate": "2025-11-10",
+      "clientId": "cli_002",
+      "propertyId": "prop_004",
+      "status": "pending",
+      "total": 29100
+    },
+    {
+      "id": "inv_00019",
+      "issueDate": "2025-10-16",
+      "dueDate": "2025-11-06",
+      "clientId": "cli_002",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 38750
+    },
+    {
+      "id": "inv_00020",
+      "issueDate": "2025-11-01",
+      "dueDate": "2025-11-15",
+      "clientId": "cli_001",
+      "propertyId": "prop_004",
+      "status": "pending",
+      "total": 34500
+    },
+    {
+      "id": "inv_00021",
+      "issueDate": "2025-12-07",
+      "dueDate": "2026-01-06",
+      "clientId": "cli_004",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 4800
+    },
+    {
+      "id": "inv_00022",
+      "issueDate": "2025-12-18",
+      "dueDate": "2026-01-17",
+      "clientId": "cli_002",
+      "propertyId": "prop_001",
+      "status": "paid",
+      "total": 35250
+    },
+    {
+      "id": "inv_00023",
+      "issueDate": "2025-12-10",
+      "dueDate": "2025-12-31",
+      "clientId": "cli_001",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 17850
+    },
+    {
+      "id": "inv_00024",
+      "issueDate": "2026-01-01",
+      "dueDate": "2026-01-15",
+      "clientId": "cli_003",
+      "propertyId": "prop_003",
+      "status": "pending",
+      "total": 22750
+    },
+    {
+      "id": "inv_00025",
+      "issueDate": "2026-01-20",
+      "dueDate": "2026-02-03",
+      "clientId": "cli_002",
+      "propertyId": "prop_002",
+      "status": "pending",
+      "total": 19400
+    },
+    {
+      "id": "inv_00026",
+      "issueDate": "2026-02-16",
+      "dueDate": "2026-03-09",
+      "clientId": "cli_001",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 27150
+    },
+    {
+      "id": "inv_00027",
+      "issueDate": "2026-02-15",
+      "dueDate": "2026-03-17",
+      "clientId": "cli_003",
+      "propertyId": "prop_004",
+      "status": "pending",
+      "total": 42600
+    },
+    {
+      "id": "inv_00028",
+      "issueDate": "2026-02-24",
+      "dueDate": "2026-03-10",
+      "clientId": "cli_003",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 30900
+    },
+    {
+      "id": "inv_00029",
+      "issueDate": "2026-03-19",
+      "dueDate": "2026-04-18",
+      "clientId": "cli_003",
+      "propertyId": "prop_003",
+      "status": "overdue",
+      "total": 5850
+    },
+    {
+      "id": "inv_00030",
+      "issueDate": "2026-04-01",
+      "dueDate": "2026-04-22",
+      "clientId": "cli_004",
+      "propertyId": "prop_002",
+      "status": "pending",
+      "total": 31700
+    },
+    {
+      "id": "inv_00031",
+      "issueDate": "2026-04-06",
+      "dueDate": "2026-05-06",
+      "clientId": "cli_001",
+      "propertyId": "prop_003",
+      "status": "pending",
+      "total": 38600
+    },
+    {
+      "id": "inv_00032",
+      "issueDate": "2026-05-02",
+      "dueDate": "2026-05-23",
+      "clientId": "cli_004",
+      "propertyId": "prop_001",
+      "status": "pending",
+      "total": 27900
+    },
+    {
+      "id": "inv_00033",
+      "issueDate": "2026-05-12",
+      "dueDate": "2026-06-02",
+      "clientId": "cli_003",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 29350
+    },
+    {
+      "id": "inv_00034",
+      "issueDate": "2026-05-04",
+      "dueDate": "2026-05-25",
+      "clientId": "cli_001",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 7200
+    },
+    {
+      "id": "inv_00035",
+      "issueDate": "2026-06-16",
+      "dueDate": "2026-07-16",
+      "clientId": "cli_002",
+      "propertyId": "prop_002",
+      "status": "overdue",
+      "total": 19900
+    },
+    {
+      "id": "inv_00036",
+      "issueDate": "2026-07-17",
+      "dueDate": "2026-08-07",
+      "clientId": "cli_003",
+      "propertyId": "prop_002",
+      "status": "pending",
+      "total": 41850
+    },
+    {
+      "id": "inv_00037",
+      "issueDate": "2026-07-17",
+      "dueDate": "2026-08-16",
+      "clientId": "cli_002",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 39550
+    },
+    {
+      "id": "inv_00038",
+      "issueDate": "2026-07-13",
+      "dueDate": "2026-08-12",
+      "clientId": "cli_001",
+      "propertyId": "prop_001",
+      "status": "overdue",
+      "total": 18400
+    },
+    {
+      "id": "inv_00039",
+      "issueDate": "2026-08-20",
+      "dueDate": "2026-09-03",
+      "clientId": "cli_003",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 48000
+    },
+    {
+      "id": "inv_00040",
+      "issueDate": "2026-08-17",
+      "dueDate": "2026-09-16",
+      "clientId": "cli_003",
+      "propertyId": "prop_001",
+      "status": "pending",
+      "total": 32050
+    },
+    {
+      "id": "inv_00041",
+      "issueDate": "2026-08-21",
+      "dueDate": "2026-09-04",
+      "clientId": "cli_003",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 12350
+    },
+    {
+      "id": "inv_00042",
+      "issueDate": "2026-09-11",
+      "dueDate": "2026-10-02",
+      "clientId": "cli_001",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 10100
+    },
+    {
+      "id": "inv_00043",
+      "issueDate": "2026-09-04",
+      "dueDate": "2026-09-18",
+      "clientId": "cli_001",
+      "propertyId": "prop_002",
+      "status": "paid",
+      "total": 30250
+    },
+    {
+      "id": "inv_00044",
+      "issueDate": "2026-09-11",
+      "dueDate": "2026-10-02",
+      "clientId": "cli_002",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 31850
+    },
+    {
+      "id": "inv_00045",
+      "issueDate": "2026-10-10",
+      "dueDate": "2026-11-09",
+      "clientId": "cli_003",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 5050
+    },
+    {
+      "id": "inv_00046",
+      "issueDate": "2026-11-22",
+      "dueDate": "2026-12-06",
+      "clientId": "cli_001",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 5250
+    },
+    {
+      "id": "inv_00047",
+      "issueDate": "2026-11-13",
+      "dueDate": "2026-11-27",
+      "clientId": "cli_004",
+      "propertyId": "prop_003",
+      "status": "paid",
+      "total": 18450
+    },
+    {
+      "id": "inv_00048",
+      "issueDate": "2026-12-23",
+      "dueDate": "2027-01-22",
+      "clientId": "cli_001",
+      "propertyId": "prop_004",
+      "status": "paid",
+      "total": 31550
+    }
+  ]
+}
